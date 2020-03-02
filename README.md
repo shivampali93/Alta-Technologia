@@ -1,2 +1,0 @@
-# Alta-Technologia
-Company website
