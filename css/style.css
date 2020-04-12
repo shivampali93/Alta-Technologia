@@ -1,0 +1,199 @@
+/* import fonts from fonts.css */
+
+@import url(./fonts.css);
+
+/* Css variables */
+@import url(./Partials/variables.css);
+
+/* import global styling */ 
+@import url(./partials/_global.css);
+
+
+
+
+/* Start Nevigation */
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar {
+    padding: 1rem 5rem;
+}
+.header_area .main-menu .nav-item
+{
+    padding: 0.7rem;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font-family: var(--Poppins);
+    /* text-transform: uppercase; */
+    font-weight: 500;
+    color:var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* End Nevigation */
+
+/* Services Area */ 
+
+.site-main .services-area .container{
+    padding: 3rem 3rem;
+}
+
+.site-main .services-area .services-title{
+      padding: 5rem 0.5rem;  
+}
+
+.site-main .services-area .services-title h1{
+    font-size: 30px;
+}
+
+.site-main > .services-area .services{
+    background: rgba(248, 252, 253, 0.973);
+     /* padding: 0.5rem 0;  */
+    width: 16rem;
+     margin: 2rem .5rem; 
+    transition: box-shadow .7s ease;
+}
+
+.site-main > .services-area .services:hover{
+    box-shadow: var(--box-shadow);
+    transform: scale(1.1);
+
+
+}
+
+/* End Services Area */
+/* Project Area */ 
+
+.site-main .project-area{
+    padding: 4rem 0;
+}
+
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--Poppins);
+    text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button + button{
+    padding-left: 3rem;
+}
+
+.site-main .project-area .grid .our-project > .title h4{
+    font: normal 700 25px/12px var(--Poppins);
+}
+
+.site-main .project-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+
+/* End Project Area */ 
+
+/* Start Event Area */
+.site-main .event-area{
+    padding: 4rem 0;
+}
+.site-main .event-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--Poppins);
+    text-transform: uppercase;
+}
+
+.site-main .event-area .button-group button + button{
+    padding-left: 3rem;
+}
+
+.site-main .event-area .grid .our-event > .title h4{
+    font: normal 700 25px/12px var(--Poppins);
+}
+.site-main .event-area .grid .our-event .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+/* End Event Area */
+
+/* Testimonials Me */ 
+
+.site-main .testimonial-area{
+    padding: 5rem;
+}
+/* 
+.site-main .testimonial-area .about-title p{
+    padding: 1rem 7rem;
+} */
+
+.site-main .testimonial-area .about-title h1 {
+    font: bold 500 16px/130px var(--Poppins);
+    font-size: 25px;
+}
+.site-main .testimonial-area .client{
+    background: #ffffff10;
+    box-shadow: var(--box-shadow);
+    margin: 2rem 0rem;
+}
+
+.site-main .testimonial-area .client .client-img{
+    padding: 1rem;
+}
+
+.site-main .testimonial-area .client .about-client{
+    padding-top: 1.5rem;
+}
+
+.site-main .testimonial-area .client .about-client .about{
+    font-size: 12px;
+}
+
+
+
+
+.site-main .testimonial-area .client .about-client h4{
+    font: normal 500 21px/ 20px var(--roboto);
+}
+
+.site-main .testimonial-area .client .about-client p{
+    font-size: 14px;
+}
+
+.site-main .testimonial-area .owl-carousel .owl-item{
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+
+.site-main .testimonial-area .owl-carousel .owl-dots .owl-dot.active span{
+    background: var(--primary-color);
+    width: 12px;
+    height: 12px;
+}
+
+
+
+/* End Testimonials  */ 
+
+
+
+/* smooth Scrolling effect */
+html {
+    scroll-behavior: smooth;
+  }
+
+
