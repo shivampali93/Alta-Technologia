@@ -47,7 +47,12 @@
 }
 
 /* End Nevigation */
+/* start services-list */
 
+/* .services-list{
+   display:block;
+   margin: 0 auto;
+} */
 /* Services Area */ 
 
 .site-main .services-area .container{
@@ -188,6 +193,332 @@
 
 
 /* End Testimonials  */ 
+
+/* start Blog section  */
+.site-main .blog-area {
+    padding: 5rem ;
+}
+.site-main .blog-area .details-card {
+	background: #ecf0f1;
+}
+.site-main .blog-area .card-content {
+	background: #ffffff;
+	border: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    padding: 1rem;
+    box-shadow: var(--box-shadow);
+
+}
+
+.site-main .blog-area .card-img {
+	position: relative;
+	overflow: hidden;
+	border-radius: 0;
+	z-index: 1;
+}
+
+.site-main .blog-area .card-img img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.site-main .blog-area .card-img span {
+	position: absolute;
+    top: 15%;
+    left: 12%;
+    /* background: #1ABC9C; */
+    background: var(--primary-color);
+    padding: 6px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transform: translate(-50%,-50%);
+}
+.site-main .blog-area .card-img span h4{
+        font-size: 12px;
+        margin:0;
+        padding:10px 5px;
+         line-height: 0;
+}
+.site-main .blog-area .card-desc {
+	padding: 1.25rem;
+}
+
+.site-main .blog-area .card-desc h3 {
+	color: #000000;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+.site-main .blog-area .card-desc p {
+	color: #747373;
+    font-size: 14px;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.5;
+	margin: 0px;
+	margin-bottom: 20px;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+.site-main .blog-area .btn-card{
+    /* background-color: #1ABC9C; */
+    background-color: var(--primary-color);
+	color: #fff;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    padding: .84rem 2.14rem;
+    font-size: .81rem;
+    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    -o-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    margin: 0;
+    border: 0;
+    -webkit-border-radius: .125rem;
+    border-radius: .125rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    white-space: normal;
+    word-wrap: break-word;
+    color: #fff;
+}
+.site-main .blog-area .btn-card:hover {
+    background: blueviolet;
+}
+.site-main .blog-area a.btn-card {
+    
+    text-decoration: none;
+    color: #fff;
+}
+/* End Blog section */
+
+/* Start About-us Section */
+#team {
+    background:white !important;
+}
+.site-main .team-area{
+ padding: 60px 0;
+}
+
+
+/* .site-main .team-area  {
+    padding: 60px 0;
+} */
+
+.site-main .team-area  .section-title {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#team .card {
+    border: none;
+    background: #eeeeee;
+}
+
+.site-main .team-area .image-flip:hover .backside,
+.site-main .team-area .image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.site-main .team-area .image-flip:hover .frontside,
+.site-main .team-area .image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.site-main .team-area .mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.site-main .team-area .frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.site-main .team-area .backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.site-main .team-area .frontside,
+.site-main .team-area .backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.site-main .team-area .frontside .card,
+.site-main .team-area .backside .card {
+    min-height: 312px;
+}
+
+.site-main .team-area .backside .card a {
+    font-size: 18px;
+    color: black !important;
+}
+.site-main .team-area .backside .card a:hover>i {
+    color: var(--primary-color);
+
+}
+
+.site-main .team-area .frontside .card .card-title,
+.site-main .team-area .backside .card .card-title {
+    color: var(--primary-color) !important;
+}
+
+.site-main .team-area .frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+    
+/* End About-us Section */
+
+
+/* Start Contact us section */
+ /* Style inputs */
+ .site-main .contact-us input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  .site-main .contact-us input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  .site-main .contact-us input[type=number], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  .site-main .contact-us input[type=submit] {
+    background-color:var(--primary-color);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .site-main .contact-us  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .site-main .contact-us .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .site-main .contact-us .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .site-main .contact-us .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .site-main .contact-us{
+      padding: 5rem;
+  }
+/* End Contact us section */
+
+
+/* Footer Area */
+footer.footer-area{
+    padding: 5rem 0;
+    background: url(../img/footer-bg.png) no-repeat;
+}
+
+footer.footer-area .social h5{
+    font: normal 500 23px/ 30px var(--roboto);
+}
+
+footer.footer-area .social a > i{
+    font-size:22px;
+    padding: 2rem;
+    color: grey;
+}
+
+footer.footer-area .social a:hover > i{
+    color: var(--primary-color);
+}
+
+footer.footer-area .para{
+    color: black;
+}
+
+/* End Footer Area */
+
 
 
 

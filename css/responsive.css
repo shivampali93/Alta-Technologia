@@ -1,0 +1,66 @@
+
+
+
+/* if the viewport is equal to 340px or less than that */ 
+@media only screen and (max-width: 340px){
+    .header_area .main-menu .navbar,
+    .header_area .main-menu .navbar .navbar-brand,
+    .site-main .services-area,
+    .site-main .project-area ,
+    .site-main .event-area
+    {
+        padding: 2%;
+        margin: 0%;
+    }
+
+    .site-main .subscribe-us-area .subscribe form .input-textbox input{
+        width: 15rem    !important;
+    }
+
+    .site-main > .services-area .services{
+        width: 13rem;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+  .site-main .contact-us .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+  .site-main .project-area ,
+  .header_area .main-menu .navbar,
+  .site-main .event-area
+    {
+        padding: 0%;
+        margin: 0%;
+    }
+
+}
+
+
+/* if the viewport is equal to 340px or less than that */ 
+@media only screen and (max-width: 792px){
+  
+}
+
+
+
+/* if the viewport is equal to 1910px or less than that */ 
+@media only screen and (max-width: 1910px){
+    .header_area .main-menu .navbar{
+        padding: 1rem;
+    }
+
+    .container{
+        max-width: 90%;
+    }
+
+    .site-main .brand-area,
+    .site-main .services-area .services-title,
+    .site-main .about-area{
+        padding: 3% 4%;
+    }
+
+
+}
